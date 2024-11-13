@@ -117,6 +117,7 @@ payload:
 
   # 番茄小说
   - DOMAIN-SUFFIX,v5-novelfm.novelfmvod.com
+  - DOMAIN-SUFFIX,v3-novelfm.novelfmvod.com
  
   # 未知
   - AND,((IP-CIDR,101.71.145.195/32,no-resolve),(DST-PORT,443))
