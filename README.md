@@ -126,6 +126,7 @@ payload:
   - AND,((DOMAIN,idx.v6.shub.sandai.net),(DST-PORT,80))
   - AND,((DOMAIN,hub5pr.v6.phub.sandai.net),(DST-PORT,80))
   - DOMAIN,c.newbuy.chinaunicom.cn
+  - DOMAIN,v5-novelfm.novelfmvod.com
 
   # IPv6
   - IP-CIDR6,::/0
