@@ -119,9 +119,12 @@ payload:
   - DOMAIN-SUFFIX,v5-novelfm.novelfmvod.com
   - DOMAIN-SUFFIX,v3-novelfm.novelfmvod.com
 
-  # 腾讯
+  # 腾讯网
   - DOMAIN-SUFFIX,finderdma.video.qq.com
- 
+  - DOMAIN-SUFFIX,finderhy.video.qq.com
+  - DOMAIN-SUFFIX,findertt.video.qq.com
+  - DOMAIN-SUFFIX,finderv1.video.qq.com
+
   # 未知
   - AND,((IP-CIDR,101.71.145.195/32,no-resolve),(DST-PORT,443))
   - AND,((IP-CIDR,120.198.203.156/32,no-resolve),(DST-PORT,80))
