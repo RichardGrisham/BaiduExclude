@@ -114,7 +114,10 @@ payload:
   - DOMAIN,www.chouchou.club
   - DOMAIN,tracker3.itzmx.com
   - IP-CIDR,61.137.178.129/32,no-resolve
-  
+
+  # 番茄小说
+  - DOMAIN,v5-novelfm.novelfmvod.com
+ 
   # 未知
   - AND,((IP-CIDR,101.71.145.195/32,no-resolve),(DST-PORT,443))
   - AND,((IP-CIDR,120.198.203.156/32,no-resolve),(DST-PORT,80))
@@ -122,7 +125,6 @@ payload:
   - AND,((DOMAIN,idx.v6.shub.sandai.net),(DST-PORT,80))
   - AND,((DOMAIN,hub5pr.v6.phub.sandai.net),(DST-PORT,80))
   - DOMAIN,c.newbuy.chinaunicom.cn
-  - DOMAIN,v5-novelfm.novelfmvod.com
-
+  
   # IPv6
   - IP-CIDR6,::/0
